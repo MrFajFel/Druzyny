@@ -6,8 +6,8 @@ public class Druzyna extends Mecz{
 
     public Druzyna(String nazwa,int wynik) {
         super();
-        wynik = getWynik();
         this.nazwa = nazwa;
+        wynik = getWynik();
     }
 
     public String getNazwa() {
