@@ -19,3 +19,4 @@ public class Druzyna extends Mecz{
         return String.format("Nazwa Drużyny to: %s,%d",nazwa,getWynik());
     }
 }
+//nie wiem

@@ -3,7 +3,7 @@ public class Mecz  {
     private Druzyna druzynaA;
     private Druzyna druzynaB;
 
-
+//nie wiem
 
     public Mecz( int wynik, Druzyna druzynaA, Druzyna druzynaB) {
         this.wynik = wynik;

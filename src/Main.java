@@ -6,7 +6,7 @@ public class Main {
         Druzyna druzyna1 = new Druzyna("DruzynaA",2);
         Druzyna druzyna2 = new Druzyna("DruzynaB",3);
         Druzyna druzyna3 = new Druzyna("DruzynaC",1);
-
+//nie wiem
         ArrayList<Druzyna> druzynas = new ArrayList<>();
         Mecz mecz1 = new Mecz(1,druzyna1,druzyna2);
         Mecz mecz2 = new Mecz(1,druzyna2,druzyna3);
