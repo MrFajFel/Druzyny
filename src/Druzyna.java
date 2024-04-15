@@ -2,12 +2,23 @@ import java.util.ArrayList;
 
 public class Druzyna extends Mecz{
     private String nazwa;
+    private int wynik = getWynik();
 
 
-    public Druzyna(String nazwa,int wynik) {
+    public Druzyna(int wynik,String nazwa) {
         super();
         this.nazwa = nazwa;
-        wynik = getWynik();
+        this.wynik = wynik;
+    }
+
+    public Druzyna(String nazwa) {
+        super();
+        this.nazwa = nazwa;
+    }
+
+    @Override
+    public int getWynik() {
+        return wynik;
     }
 
     public String getNazwa() {

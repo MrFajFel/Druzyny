@@ -1,18 +1,17 @@
 public class Mecz  {
-    private int wynik;
+    protected int wynik;
     private Druzyna druzynaA;
     private Druzyna druzynaB;
 
-//nie wiem
+ // NIE WIEM CZY TO DZIALA NAWET
 
     public Mecz( int wynik, Druzyna druzynaA, Druzyna druzynaB) {
         this.wynik = wynik;
         this.druzynaA = druzynaA;
         this.druzynaB = druzynaB;
     }
-
     public Mecz() {
-        this.wynik = getWynik();
+
     }
 
     public int getWynik() {
