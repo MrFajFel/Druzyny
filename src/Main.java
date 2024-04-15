@@ -20,7 +20,7 @@ public class Main {
                 return o2.getWynik() - o1.getWynik();
             }
         });
-
+         // chyba dziala
         System.out.println(druzynas);
 
 
