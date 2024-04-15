@@ -13,6 +13,9 @@ public class Main {
         Mecz mecz3 = new Mecz(0,druzyna3,druzyna1);
 
 
+
+
+
         meczs.add(druzyna1);
         meczs.add(druzyna2);
         meczs.add(druzyna3);
